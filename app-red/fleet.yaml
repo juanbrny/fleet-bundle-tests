@@ -4,7 +4,6 @@
 targetCustomizations:
 - name: prod
   # Custom namespace value overriding the value at the root
-  namespace: production
   clusterSelector:
     matchLabels:
-      numbertype: odd
+      numbertype: zero
