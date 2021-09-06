@@ -1,9 +1,9 @@
 # Default namespace
 #namespace: default
 
-targetCustomizations:
-- name: prod
-  # Custom namespace value overriding the value at the root
-  clusterSelector:
-    matchLabels:
-      numbertype: zero
+#targetCustomizations:
+#- name: prod
+#  # Custom namespace value overriding the value at the root
+#  clusterSelector:
+#    matchLabels:
+#      numbertype: zero
