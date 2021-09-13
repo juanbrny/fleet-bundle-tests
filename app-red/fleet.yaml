@@ -1,10 +1,10 @@
 # Default namespace
 #namespace: default
 
-##targetCustomizations:
-##- name: notmanaged
-##  clusterGroupSelector:
-##     matchExpressions:
-##     - {key: metadata.name, operator: NotIn, values: [singlenodemanaged]}
+targetCustomizations:
+- name: notmanaged
+  clusterGroupSelector:
+     matchExpressions:
+     - {key: metadata.name, operator: NotIn, values: [singlenodemanaged]}
 #    matchLabels:
 #      numbertype: zero
