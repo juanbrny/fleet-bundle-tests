@@ -1,9 +1,11 @@
 # Default namespace
 #namespace: default
 
-#targetCustomizations:
-#- name: prod
+targetCustomizations:
+- name: notmanaged
 #  # Custom namespace value overriding the value at the root
-#  clusterSelector:
+  clusterGroupSelector:
+     matchExpressions:
+     - {key: metadata.name, operator: NotIn, values: [singlenodemanaged]}
 #    matchLabels:
 #      numbertype: zero
