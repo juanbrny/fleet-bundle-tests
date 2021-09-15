@@ -7,5 +7,4 @@ targetCustomizations:
  # clusterGroupSelector:
  #    matchExpressions:
  #    - {key: metadata.name, operator: NotIn, values: [singlenodemanaged]}
-#    matchLabels:
-#      numbertype: zero
+
